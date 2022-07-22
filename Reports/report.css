@@ -5,7 +5,8 @@
 h3{
   color: rgb(53, 52, 52) ;
   margin-top: 20px;
-  margin-left: 40px;
+  margin-left: 35px;
+  
 }
 
 #navbar{
@@ -13,31 +14,20 @@ h3{
   display: flex;
   height: 60px;
   
+  
+}
+#navbar>p{
+  margin-left: 40px;
+  margin-top: 22px;
+  font-size: 15px;
+  color: rgb(101, 100, 100);
+  
+}
+#navbar>p:hover{
+  color:  rgb(27, 26, 26) ;;
 }
 
-#data_select{
-  height:30px ;
-  border-radius: 5px;
-  margin:16px 10px 0px 35px ;
-  width:180px;
-  text-align: center;
-}
 
-#Project_select{
-  height:30px ;
-  border-radius: 5px;
-  margin:16px;
-  width:180px;
-  text-align: center;
-}
-
-#calender{
-  height:30px ;
-  border-radius: 5px;
-  margin: 16px 0px 0px 350px ;
-  width: 200px;
-  text-align: center;
-}
 
 #navbar2{
   display:flex;
@@ -46,11 +36,13 @@ h3{
   
  
 }
-#projectimg{
+
+#navbar2>img{
   width: 20px;
   height: 20px;
   margin-left: 20px;
   margin-top: 10px;
+  
 }
 #dollerimg{
   width: 20px;
@@ -58,9 +50,10 @@ h3{
   margin-left: 20px;
   margin-top: 12px;
 }
-#p{
-  margin-left: 40px;
+#navbar2>p{
+  margin-left: 20px;
   margin-top: 10px;
+  color: gray;
 }
 #pp{
   margin-top: 10px;
@@ -77,12 +70,24 @@ h3{
 }
 .para{
  
-  font-size: 20;
+  
   color: rgb(79, 73, 73);
   margin-top: 10px;
+}
+h2{
+  font-size:25px;
+  margin-top: 15px;
 }
 #mainpage{
   text-align: center;
   width: 90%;
-  margin-left: 10%;
+  margin-left: 12%;
+}
+#calender{
+  height:30px ;
+  border-radius: 5px;
+  margin-right: 70%;
+  margin-top: 30px;
+  width: 250px;
+  text-align: center;
 }

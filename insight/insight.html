@@ -5,9 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="insight.css">
+
+
+  <link rel="icon" type="image/x-icon"
+  href="https://zenkit.com/wp-content/uploads/2020/11/toggl-track_icon_pink_rgb.png">
+<link rel="stylesheet" href="./sidebar.css">
+<script src="https://kit.fontawesome.com/2c5129cb2c.js" crossorigin="anonymous"></script>
+
+
 </head>
 <body>
-  <div id="main">
+  <div id="main"></div>
+  <div id="mainpage">
       <div id="navbar">
         <div>
           <h3>Insights</h3>
@@ -56,3 +65,10 @@
   </div>
 </body>
 </html>
+<script type="module">
+
+ import sidebar from "./sidebar.js"
+
+  document.getElementById("main").innerHTML = sidebar();
+
+</script>
