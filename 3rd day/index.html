@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <script
+      src="https://kit.fontawesome.com/c4a8846da0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://zenkit.com/wp-content/uploads/2020/11/toggl-track_icon_pink_rgb.png"
+    />
+    <style>
+      @import url(“https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;1,300&display=swap”);
+      * {
+        font-family: ‘Poppins’, sans-serif;
+        cursor: pointer;
+      }
+      #navbar {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        /* justify-content: space-around; */
+        background-color: #2c1338;
+        position: fixed;
+      }
+      #navbar > div:first-child {
+        width: 13%;
+        /* height: 100%; */
+      }
+      #navbar > div:last-child {
+        width: 30%;
+        /* height: 100%; */
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-weight: bold;
+      }
+      #ndBox {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 40%;
+        color: white;
+      }
+      #ndBox > p:hover {
+        color: #e57cd8;
+      }
+      select {
+        border: 0px;
+      }
+
+      .last > p:hover {
+        color: #e57cd8;
+      }
+      #image {
+        padding: 10px;
+      }
+      #image > img {
+        width: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35px;
+        padding-top: 10px;
+        padding-left: 15px;
+      }
+      #empty {
+        width: 17%;
+      }
+      #try {
+        background-color: #fce5d8;
+        color: #e57cd8;
+        border-radius: 30px;
+        padding: 15px 25px;
+       
+      }
+      #try:hover {
+       background-color: #503e59;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <div id="image">
+        <img
+          src="https://toggl.com/blog/wp-content/uploads/2020/09/toggl-track_logotype_horizontal_pink_rgb-e1599116263835.png"
+          alt="Toggl_Track"
+        />
+      </div>
+      <div id="ndBox">
+        <p id="product">Product <i class="fa-solid fa-caret-down"></i></p>
+        
+        <p>Pricing</p>
+        <p>Why Track?</p>
+        <p id="career">Careers <i class="fa-solid fa-caret-down"></i></p>
+      </div>
+      <div id="empty"></div>
+      <div class="last">
+        <p>Book a demo</p>
+        <p>|</p>
+        <p>Log in</p>
+        <p id="try">Try for free</p>
+      </div>
+    </div>
+  </body>
+</html>
