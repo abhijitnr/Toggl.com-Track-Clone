@@ -1,50 +1,49 @@
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Toggl Track</title>
   <link rel="stylesheet" href="clients.css">
 
 
   <link rel="icon" type="image/x-icon"
-  href="https://zenkit.com/wp-content/uploads/2020/11/toggl-track_icon_pink_rgb.png">
-<link rel="stylesheet" href="./sidebar.css">
-<script src="https://kit.fontawesome.com/2c5129cb2c.js" crossorigin="anonymous"></script>
+    href="https://zenkit.com/wp-content/uploads/2020/11/toggl-track_icon_pink_rgb.png">
+  <link rel="stylesheet" href="./sidebar.css">
+  <script src="https://kit.fontawesome.com/2c5129cb2c.js" crossorigin="anonymous"></script>
 
 
 </head>
+
 <body>
   <div id="main"></div>
   <div id="mainpage">
-      <div id="navbar">
-        <div>
-          <h3>Insights</h3>
-        </div>
-
-        <input type="text" id="search" placeholder="Find client...">
-        
-        <button id="clientbtn">+ New client</button>
-      
-
-        
-
-
-       
+    <div id="navbar">
+      <div>
+        <h3>Insights</h3>
       </div>
 
-    
-      
-      <img id="mainimg" src="https://web-assets.toggl.com/app/assets/images/61ce0ce0f6d73773.png" alt="">
-      <h2>Track work by client</h3>
+      <input type="text" id="search" placeholder="Find client...">
+
+      <button id="clientbtn">+ New client</button>
+
+
+    </div>
+
+
+
+    <img id="mainimg" src="https://web-assets.toggl.com/app/assets/images/61ce0ce0f6d73773.png" alt="">
+    <h2>Track work by client</h3>
       <p class="para">Categorize your time entries by client for easy billing.</p>
 
   </div>
 </body>
+
 </html>
 <script type="module">
 
- import sidebar from "./sidebar.js"
+  import sidebar from "./sidebar.js"
 
   document.getElementById("main").innerHTML = sidebar();
 

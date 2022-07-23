@@ -82,7 +82,7 @@ h2{
 #mainpage{
   text-align: center;
   
-  margin-left: 140;
+  margin-left: 12%;
 }
 #calender{
   height:30px ;
@@ -95,7 +95,7 @@ h2{
 #invitebtn{
   height: 33px;
   width: 130px;
-  margin-left: 37%;
+  margin-left: 43%;
   margin-top: 15px;
   border-radius: 8px;
   border: white;

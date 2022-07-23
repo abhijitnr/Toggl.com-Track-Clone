@@ -1,28 +1,30 @@
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Toggl Track</title>
   <link rel="stylesheet" href="Project.css">
 
   <link rel="icon" type="image/x-icon"
-  href="https://zenkit.com/wp-content/uploads/2020/11/toggl-track_icon_pink_rgb.png">
-<link rel="stylesheet" href="./sidebar.css">
-<script src="https://kit.fontawesome.com/2c5129cb2c.js" crossorigin="anonymous"></script>
+    href="https://zenkit.com/wp-content/uploads/2020/11/toggl-track_icon_pink_rgb.png">
+  <link rel="stylesheet" href="./sidebar.css">
+  <script src="https://kit.fontawesome.com/2c5129cb2c.js" crossorigin="anonymous"></script>
 
 
 </head>
+
 <body>
   <div id="main"></div>
   <div id="mainpage">
     <div id="navbar">
       <div>
         <h3>Projects</h3>
-        
+
       </div>
       <button id="projectbtn">+ New project</button>
-        <!-- <p>Summary</p>
+      <!-- <p>Summary</p>
         <p>Detailed</p>
         <p>Weekly</p>
         <p>Saved</p> -->
@@ -31,51 +33,59 @@
     <div id="navbar2">
 
       <select name="" id="show">
-        
+
         <option value="">Show active</option>
-       <option value="Active">Active</option>
-       <option value="Archived">Archived</option>
-       <option value="Both">Both</option>
+        <option value="Active">Active</option>
+        <option value="Archived">Archived</option>
+        <option value="Both">Both</option>
 
       </select>
 
       <p id="p">Filter by:</p>
 
-      <img id="teamimg" src="https://static.vecteezy.com/system/resources/previews/000/567/579/original/vector-person-icon.jpg" alt="">
+      <img id="teamimg"
+        src="https://static.vecteezy.com/system/resources/previews/000/567/579/original/vector-person-icon.jpg" alt="">
       <p id="teamp">Team</p>
 
-      <img id="clientimg" src="https://cdn2.iconfinder.com/data/icons/man-user-human-person-avatar-business-profile/100/18-1User_5-2-512.png" alt="">
+      <img id="clientimg"
+        src="https://cdn2.iconfinder.com/data/icons/man-user-human-person-avatar-business-profile/100/18-1User_5-2-512.png"
+        alt="">
       <p id="clientp">Client</p>
 
 
 
-      
 
 
-       <img id="dollerimg" src="https://th.bing.com/th/id/R.d8a18a804f5186f9629e5596c8bd0bc5?rik=1%2fwZWFAHoX%2b98A&riu=http%3a%2f%2fwww.publicdomainpictures.net%2fpictures%2f40000%2fnahled%2fdollar-sign-white.jpg&ehk=sixfw3x8i2Yy6X3Lf7v2TM1f2Op9b940uEgDW2kh%2fuA%3d&risl=&pid=ImgRaw&r=0" alt="">
+
+      <img id="dollerimg"
+        src="https://th.bing.com/th/id/R.d8a18a804f5186f9629e5596c8bd0bc5?rik=1%2fwZWFAHoX%2b98A&riu=http%3a%2f%2fwww.publicdomainpictures.net%2fpictures%2f40000%2fnahled%2fdollar-sign-white.jpg&ehk=sixfw3x8i2Yy6X3Lf7v2TM1f2Op9b940uEgDW2kh%2fuA%3d&risl=&pid=ImgRaw&r=0"
+        alt="">
       <p id="ppp">Billable</p>
 
 
-      <img id="projectimg" src="https://d1nhio0ox7pgb.cloudfront.net/_img/o_collection_png/green_dark_grey/512x512/plain/folder.png" alt="">
+      <img id="projectimg"
+        src="https://d1nhio0ox7pgb.cloudfront.net/_img/o_collection_png/green_dark_grey/512x512/plain/folder.png"
+        alt="">
       <p id="pp">Project</p>
 
 
 
     </div>
 
-   
-    
+
+
     <img id="mainimg" src="https://web-assets.toggl.com/app/assets/images/7026023e2c995e75.png" alt="">
-    <h2 >Create a Project and get organized!</h2>
+    <h2>Create a Project and get organized!</h2>
     <p class="para">Projects are the backbones of time entry categorization in
       your workspace. </p>
 
-</div>
+  </div>
 </body>
+
 </html>
 <script type="module">
 
-   import sidebar from "./sidebar.js"
-   document.getElementById("main").innerHTML = sidebar();
+  import sidebar from "./sidebar.js"
+  document.getElementById("main").innerHTML = sidebar();
 
 </script>

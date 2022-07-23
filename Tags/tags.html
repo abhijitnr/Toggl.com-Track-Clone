@@ -1,51 +1,54 @@
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Toggl Track</title>
   <link rel="stylesheet" href="tags.css">
 
 
   <link rel="icon" type="image/x-icon"
-  href="https://zenkit.com/wp-content/uploads/2020/11/toggl-track_icon_pink_rgb.png">
-<link rel="stylesheet" href="./sidebar.css">
-<script src="https://kit.fontawesome.com/2c5129cb2c.js" crossorigin="anonymous"></script>
+    href="https://zenkit.com/wp-content/uploads/2020/11/toggl-track_icon_pink_rgb.png">
+  <link rel="stylesheet" href="./sidebar.css">
+  <script src="https://kit.fontawesome.com/2c5129cb2c.js" crossorigin="anonymous"></script>
 
 
 </head>
+
 <body>
   <div id="main"></div>
   <div id="mainpage">
-      <div id="navbar">
-        <div>
-          <h3>Tags</h3>
-        </div>
-
-        <input type="text" id="search" placeholder="Find tag...">
-        
-        <button id="tagbtn">+ New tags</button>
-      
-
-        
-
-
-       
+    <div id="navbar">
+      <div>
+        <h3>Tags</h3>
       </div>
 
-    
-      
-      <img id="mainimg" src="https://web-assets.toggl.com/app/assets/images/388b5d9b02167b77.png" alt="">
-      <h2>Categorize your time and get more insights</h3>
-      <p class="para">Tags allow you to add even more context to time entries, beyond clients 
+      <input type="text" id="search" placeholder="Find tag...">
+
+      <button id="tagbtn">+ New tags</button>
+
+
+
+
+
+
+    </div>
+
+
+
+    <img id="mainimg" src="https://web-assets.toggl.com/app/assets/images/388b5d9b02167b77.png" alt="">
+    <h2>Categorize your time and get more insights</h3>
+      <p class="para">Tags allow you to add even more context to time entries, beyond clients
         and projects.</p>
 
   </div>
 </body>
+
 </html>
 <script type="module">
 
- import sidebar from "./sidebar.js"
+  import sidebar from "./sidebar.js"
 
   document.getElementById("main").innerHTML = sidebar();
 
