@@ -2,6 +2,7 @@
     height: 1000px;
     display: flex;
     background-color: rgb(40, 18, 60);
+    margin-top: 80px;
 }
 #sm{
     width: 50%;

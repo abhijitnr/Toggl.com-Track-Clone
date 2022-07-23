@@ -21,7 +21,8 @@
 
             <!-- This div for clone logo and notification bell  -->
             <div id="logo">
-                <img src="https://toggl.com/blog/wp-content/uploads/2020/09/toggl-track_logotype_horizontal_pink_rgb-e1599116263835.png"
+                <img onclick="gotoHomes()"
+                    src="https://toggl.com/blog/wp-content/uploads/2020/09/toggl-track_logotype_horizontal_pink_rgb-e1599116263835.png"
                     alt="Toggl_Track">
                 <p><i class="fa-solid fa-bell"></i></p>
             </div>
@@ -29,23 +30,23 @@
             <!-- This div for track -->
             <div id="track">
                 <p>TRACK</p>
-                <p><span><i class="fa-solid fa-clock"></i></span> Timer</p>
+                <p onclick="timerPage()"><span><i class="fa-solid fa-clock"></i></span> Timer</p>
             </div>
 
             <!-- This div for analyze -->
             <div id="analyze">
                 <p>ANALYZE</p>
-                <p><span><i class="fa-solid fa-file-lines"></i></span> Reports</p>
-                <p><span><i class="fa-solid fa-file-waveform"></i></span> Insights</p>
+                <p onclick="reportPage()"><span><i class="fa-solid fa-file-lines"></i></span> Reports</p>
+                <p onclick="insightsPage()"><span><i class="fa-solid fa-file-waveform"></i></span> Insights</p>
             </div>
 
             <!-- This div for manage -->
             <div id="manage">
                 <p>MANAGE</p>
-                <p><span><i class="fa-solid fa-folder-closed"></i></span> Projects</p>
-                <p><span><i class="fa-solid fa-user-tie"></i></span> Clients</p>
-                <p><span><i class="fa-solid fa-people-group"></i></span> Team</p>
-                <p><span><i class="fa-solid fa-tag"></i></span> Tags</p>
+                <p onclick="projectPage()"><span><i class="fa-solid fa-folder-closed"></i></span> Projects</p>
+                <p onclick="clientsPage()"><span><i class="fa-solid fa-user-tie"></i></span> Clients</p>
+                <p onclick="teamPage()"><span><i class="fa-solid fa-people-group"></i></span> Team</p>
+                <p onclick="tagPage()"><span><i class="fa-solid fa-tag"></i></span> Tags</p>
                 <p><span><i class="fa-solid fa-circle-question"></i></span> Help</p>
                 <p><span><i class="fa-solid fa-plug"></i></span> Integrations</p>
             </div>
@@ -53,8 +54,8 @@
             <!-- This div for analyze -->
             <div id="admin">
                 <p>ADMIN</p>
-                <p><span><i class="fa-solid fa-city"></i></span> Organization</p>
-                <p><span><i class="fa-solid fa-gear"></i></span> Settings</p>
+                <p onclick="organizationPage()"><span><i class="fa-solid fa-city"></i></span> Organization</p>
+                <p onclick="settingPage()"><span><i class="fa-solid fa-gear"></i></span> Settings</p>
             </div>
 
 
@@ -150,3 +151,55 @@
 </body>
 
 </html>
+
+<script>
+    // Div for goto home page
+    function gotoHomes() {
+        window.location.href = "../index.html"
+    }
+
+    // Div for goto timer page
+    function timerPage() {
+        window.location.href = "../Sidebar/sidebar.html"
+    }
+
+    // Div for goto Reports page
+    function reportPage() {
+        window.location.href = "../Reports/report.html"
+    }
+
+    // Div for goto insights Page
+    function insightsPage() {
+        window.location.href = "../insight/insight.html"
+    }
+
+    // Div for goto project page
+    function projectPage() {
+        window.location.href = "../Projects/project.html"
+    }
+
+    // Div for goto clients page
+    function clientsPage() {
+        window.location.href = "../Clients/clients.html"
+    }
+
+    // Div for goto Team page
+    function teamPage() {
+        window.location.href = "../Team/team.html"
+    }
+
+    // Div for goto tag page
+    function tagPage() {
+        window.location.href = "../Tags/tags.html"
+    }
+
+    // Div for goto organization page
+    function organizationPage() {
+        window.location.href = "../organization/organization.html"
+    }
+
+    // Div for goto setting page
+    function settingPage() {
+        window.location.href = "../settings/setting.html"
+    }
+</script>

@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,67 +9,125 @@
 
 
   <link rel="icon" type="image/x-icon"
-  href="https://zenkit.com/wp-content/uploads/2020/11/toggl-track_icon_pink_rgb.png">
-<link rel="stylesheet" href="./sidebar.css">
-<script src="https://kit.fontawesome.com/2c5129cb2c.js" crossorigin="anonymous"></script>
+    href="https://zenkit.com/wp-content/uploads/2020/11/toggl-track_icon_pink_rgb.png">
+  <link rel="stylesheet" href="./sidebar.css">
+  <script src="https://kit.fontawesome.com/2c5129cb2c.js" crossorigin="anonymous"></script>
 
 
 </head>
+
 <body>
   <div id="main"></div>
   <div id="mainpage">
-      <div id="navbar">
-        <div>
-          <h3>Insights</h3>
-        </div>
-        
-          <select name="" id="data_select">
-            <option value="Data trends">Data trends</option>
-            <option value="Project profitability">Project profitability</option>
-            <option value="Employee profitability">Employee profitability</option>
-            <option value="Comparative">Comparativ</option>
-
-          </select>
-
-          <select name="" id="Project_select">
-
-
-              <option value="Projects">Projects</option>
-              <option value="Clients">Clients</option>
-              <option value="Teamy">Team</option>
-  
-           
-          </select>
-
-          <select name="" id="calender">
-
-            <option value="Last Week">Last Week</option>
-            <option value="Last Month">Last Month</option>
-
-          </select>
-
-       
+    <div id="navbar">
+      <div>
+        <h3>Insights</h3>
       </div>
 
-      <div id="navbar2">
-        <p id="p">Filter by:</p>
-        <img id="projectimg" src="https://d1nhio0ox7pgb.cloudfront.net/_img/o_collection_png/green_dark_grey/512x512/plain/folder.png" alt="">
-        <p id="pp">Project</p>
-         <img id="dollerimg" src="https://th.bing.com/th/id/R.d8a18a804f5186f9629e5596c8bd0bc5?rik=1%2fwZWFAHoX%2b98A&riu=http%3a%2f%2fwww.publicdomainpictures.net%2fpictures%2f40000%2fnahled%2fdollar-sign-white.jpg&ehk=sixfw3x8i2Yy6X3Lf7v2TM1f2Op9b940uEgDW2kh%2fuA%3d&risl=&pid=ImgRaw&r=0" alt="">
-        <p id="ppp">Billable</p>
-      </div>
-      
-      <img id="mainimg" src="https://web-assets.toggl.com/app/assets/images/93ebac6785353dc4.png" alt="">
-      <p class="para">Select up to 10 projects to get started</p>
-      <p class="para">You can switch between graphs at the top of the screen</p>
+      <select name="" id="data_select">
+        <option value="Data trends">Data trends</option>
+        <option value="Project profitability">Project profitability</option>
+        <option value="Employee profitability">Employee profitability</option>
+        <option value="Comparative">Comparativ</option>
+
+      </select>
+
+      <select name="" id="Project_select">
+
+
+        <option value="Projects">Projects</option>
+        <option value="Clients">Clients</option>
+        <option value="Teamy">Team</option>
+
+
+      </select>
+
+      <select name="" id="calender">
+
+        <option value="Last Week">Last Week</option>
+        <option value="Last Month">Last Month</option>
+
+      </select>
+
+
+    </div>
+
+    <div id="navbar2">
+      <p id="p">Filter by:</p>
+      <img id="projectimg"
+        src="https://d1nhio0ox7pgb.cloudfront.net/_img/o_collection_png/green_dark_grey/512x512/plain/folder.png"
+        alt="">
+      <p id="pp">Project</p>
+      <img id="dollerimg"
+        src="https://th.bing.com/th/id/R.d8a18a804f5186f9629e5596c8bd0bc5?rik=1%2fwZWFAHoX%2b98A&riu=http%3a%2f%2fwww.publicdomainpictures.net%2fpictures%2f40000%2fnahled%2fdollar-sign-white.jpg&ehk=sixfw3x8i2Yy6X3Lf7v2TM1f2Op9b940uEgDW2kh%2fuA%3d&risl=&pid=ImgRaw&r=0"
+        alt="">
+      <p id="ppp">Billable</p>
+    </div>
+
+    <img id="mainimg" src="https://web-assets.toggl.com/app/assets/images/93ebac6785353dc4.png" alt="">
+    <p class="para">Select up to 10 projects to get started</p>
+    <p class="para">You can switch between graphs at the top of the screen</p>
 
   </div>
 </body>
+
 </html>
 <script type="module">
 
- import sidebar from "./sidebar.js"
+  import sidebar from "./sidebar.js"
 
   document.getElementById("main").innerHTML = sidebar();
 
+</script>
+
+<script>
+  // Div for goto home page
+  function gotoHomes() {
+    window.location.href = "../index.html"
+  }
+
+  // Div for goto timer page
+  function timerPage() {
+    window.location.href = "../Sidebar/sidebar.html"
+  }
+
+  // Div for goto Reports page
+  function reportPage() {
+    window.location.href = "../Reports/report.html"
+  }
+
+  // Div for goto insights Page
+  function insightsPage() {
+    window.location.href = "../insight/insight.html"
+  }
+
+  // Div for goto project page
+  function projectPage() {
+    window.location.href = "../Projects/project.html"
+  }
+
+  // Div for goto clients page
+  function clientsPage() {
+    window.location.href = "../Clients/clients.html"
+  }
+
+  // Div for goto Team page
+  function teamPage() {
+    window.location.href = "../Team/team.html"
+  }
+
+  // Div for goto tag page
+  function tagPage() {
+    window.location.href = "../Tags/tags.html"
+  }
+
+  // Div for goto organization page
+  function organizationPage() {
+    window.location.href = "../organization/organization.html"
+  }
+
+  // Div for goto setting page
+  function settingPage() {
+    window.location.href = "../settings/setting.html"
+  }
 </script>

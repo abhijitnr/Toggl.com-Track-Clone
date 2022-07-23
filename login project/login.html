@@ -186,7 +186,7 @@
                 </div>
             </div>
             <h1 id="q">Don't have an account?</h1>
-            <div id="qq"> <a href="signup.html"> Sign-up For Free</a></div>
+            <div id="qq"> <a href="../signup.html"> Sign-up For Free</a></div>
         </div>
     </DIv>
 </body>
@@ -201,17 +201,18 @@
 
 
 
-    let use = JSON.parse(localStorage.getItem("user")) || [];
-    console.log(use)
+    let use = JSON.parse(localStorage.getItem("user"));
 
-    let login = () => {
+    function login() {
+        event.preventDefault()
 
         let Email = document.getElementById("email").value;
         let Pass = document.getElementById("pass").value;
 
         if (Pass == use.pass && Email == use.email) {
             alert("login successfull")
-            window.location.href = "index.html";
+            window.location.href = "../index.html";
+            console.log("hello")
         } else {
             alert('please enter valid email or password')
         }
