@@ -4,8 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="report.css">
-<<<<<<< HEAD
+  <link rel="stylesheet" href="Project.css">
 
   <link rel="icon" type="image/x-icon"
   href="https://zenkit.com/wp-content/uploads/2020/11/toggl-track_icon_pink_rgb.png">
@@ -17,23 +16,29 @@
 <body>
   <div id="main"></div>
   <div id="mainpage">
-=======
-</head>
-<body>
-  <div id="main">
->>>>>>> main
     <div id="navbar">
       <div>
-        <h3>Reports</h3>
-       
+        <h3>Projects</h3>
+        
       </div>
-        <p>Summary</p>
+      <button id="projectbtn">+ New project</button>
+        <!-- <p>Summary</p>
         <p>Detailed</p>
         <p>Weekly</p>
-        <p>Saved</p>
+        <p>Saved</p> -->
     </div>
 
     <div id="navbar2">
+
+      <select name="" id="show">
+        
+        <option value="">Show active</option>
+       <option value="Active">Active</option>
+       <option value="Archived">Archived</option>
+       <option value="Both">Both</option>
+
+      </select>
+
       <p id="p">Filter by:</p>
 
       <img id="teamimg" src="https://static.vecteezy.com/system/resources/previews/000/567/579/original/vector-person-icon.jpg" alt="">
@@ -44,38 +49,29 @@
 
 
 
-      <img id="projectimg" src="https://d1nhio0ox7pgb.cloudfront.net/_img/o_collection_png/green_dark_grey/512x512/plain/folder.png" alt="">
-      <p id="pp">Project</p>
+      
 
-      <img is="taskimg" src="https://www.myassist.my/wp-content/uploads/2018/10/Inspection-black.png" alt="">
-      <p id="taskp">Task</p>
 
        <img id="dollerimg" src="https://th.bing.com/th/id/R.d8a18a804f5186f9629e5596c8bd0bc5?rik=1%2fwZWFAHoX%2b98A&riu=http%3a%2f%2fwww.publicdomainpictures.net%2fpictures%2f40000%2fnahled%2fdollar-sign-white.jpg&ehk=sixfw3x8i2Yy6X3Lf7v2TM1f2Op9b940uEgDW2kh%2fuA%3d&risl=&pid=ImgRaw&r=0" alt="">
       <p id="ppp">Billable</p>
 
-      <img id="tagimg" src="https://pic.onlinewebfonts.com/svg/img_180572.png" alt="">
-      <p id="tagp">Tag</p>
 
-      <img id="desimg" src="https://th.bing.com/th/id/R.341032a2c5f1ced5db795598339e82d0?rik=ySr75o31%2f%2fwCZw&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_128369.png&ehk=dIEU5Tqlvkz2itf0vuO9cLHUguF6%2fpFVbbRcZ0Z81pM%3d&risl=&pid=ImgRaw&r=0" alt="">
-      <p id="disp">Description</p>
+      <img id="projectimg" src="https://d1nhio0ox7pgb.cloudfront.net/_img/o_collection_png/green_dark_grey/512x512/plain/folder.png" alt="">
+      <p id="pp">Project</p>
+
+
 
     </div>
 
-    <select name="" id="calender">
-
-      <option value="Last Week">Last Week</option>
-      <option value="Last Month">Last Month</option>
-
-    </select>
+   
     
-    <img id="mainimg" src="https://web-assets.toggl.com/app/assets/images/7122cbb166f7c8d0.png" alt="">
-    <h2 >Just some empty boxes here</h2>
-    <p class="para">Try a different date range or filters.
-      Still nothing? Go ahead and track some time.</p>
+    <img id="mainimg" src="https://web-assets.toggl.com/app/assets/images/7026023e2c995e75.png" alt="">
+    <h2 >Create a Project and get organized!</h2>
+    <p class="para">Projects are the backbones of time entry categorization in
+      your workspace. </p>
 
 </div>
 </body>
-<<<<<<< HEAD
 </html>
 <script type="module">
 
@@ -83,6 +79,3 @@
    document.getElementById("main").innerHTML = sidebar();
 
 </script>
-=======
-</html>
->>>>>>> main

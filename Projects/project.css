@@ -67,6 +67,7 @@ h3{
 }
 #mainimg{
   margin: 100px 45% 0px ;
+  width: 150px;
 }
 .para{
  
@@ -74,31 +75,41 @@ h3{
   color: rgb(79, 73, 73);
   margin-top: 10px;
 }
-h2{
-  font-size:25px;
+h3{
+  font-size:18px;
   margin-top: 15px;
 }
-<<<<<<< HEAD
 #mainpage{
   text-align: center;
   width: 90%;
   margin-left: 12%;
-=======
-#main{
-  text-align: center;
-  /* width: 80%;
-  margin-left: 20%; */
->>>>>>> main
 }
 #calender{
   height:30px ;
   border-radius: 5px;
-<<<<<<< HEAD
   margin-right: 70%;
-=======
-  margin-right: 920px;
->>>>>>> main
   margin-top: 30px;
   width: 250px;
   text-align: center;
+}
+#projectbtn{
+  height: 30px;
+  width: 120px;
+  margin-left: 75%;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: white;
+  background-color: rgb(242, 115, 158);
+  color: white;
+  
+}
+#show{
+  height: 32px;
+  width: 100px;
+  margin-top: 5px;
+  margin-left: 25px;
+  margin-right: px;
+  border-radius: 5px;
+  border:.02 gray;
+  background-color: rgb(245, 241, 241);
 }
