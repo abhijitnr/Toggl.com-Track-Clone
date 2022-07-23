@@ -1,0 +1,172 @@
+#big{
+    height: 1000px;
+    display: flex;
+    background-color: rgb(40, 18, 60);
+}
+#sm{
+    width: 50%;
+    /* background-color: aqua; */
+    margin-left: 90px;
+}
+#h1{
+    font-size: 60px;
+    color: white;
+    margin-left: 20px;
+}
+h3{
+    margin-left: 70px;
+    color: white;
+    margin-top: 30px;
+    
+}
+h2{
+    margin-left: 70px;
+    color: white;
+}
+#free{
+    font-family: 'GT Haptik Medium Rotalic',sans-serif;
+    color: #E57CD8;
+   }
+   @keyframes free{
+    15%{
+        transform: rotate(15deg);
+    }
+   }
+   #h3{
+    margin-left: 70px;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 60px;
+   }
+#logo{
+    height: 40px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+#icon{
+    height: 100px;
+}
+#lol{
+    /* height: 150px; */
+    display: flex;
+    margin-top: 90px;
+    margin-left:70px ;
+}
+#g{
+    color: white;
+}
+#s{
+    margin-top: -30px;
+}
+#h{
+    margin-left: 70px;
+    color: #E57CD8;
+    margin-bottom: 60px;
+}
+/* second */
+#bi{
+    height: 820px;
+    width:40% ;
+    background-color: antiquewhite;
+    border-radius: 12px;
+    margin-top: 120px;
+    
+}
+#san{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+p{
+    margin-left: 30px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+#l{
+    margin-left: 50px;
+    margin-right: 137px;
+}
+#name{
+    width: 200px;
+    margin-left: 50px;
+    height: 30px;
+    margin-top: 20px;
+
+
+}
+#ni{
+    margin-bottom: 30px;
+}
+#email{
+    width: 80%;
+    height: 30px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+#em{
+    margin-left: 50px;   
+}
+#num{
+    width: 70px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#numb{
+    width: 324px;
+    height: 30px;
+    margin-left: 50px;
+}
+#a{
+    margin-left:50px ;
+}
+#k{
+    margin-left:38px ;
+}
+#sel{
+    width: 81%;
+    height: 35px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+button{
+    width: 80%;
+    height: 35px;
+    border-radius: 17px;
+    background-color: #E57CD8;
+    margin-left: 52px;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: aqua;
+}
+#qw{
+    display: flex;
+    height: 400px;
+}
+#za{
+    width: 70%;
+    background-color: rgb(82, 57, 105);
+}
+#d{
+    color: white;
+    margin-left: 100px;
+    margin-top: 100px;
+    
+}
+#and{
+    color: #E57CD8;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#last{
+    width: 30%;
+    background-color: rgb(82, 57, 105);
+}
+#lastimg{
+    transform: rotate(12deg);
+    margin-top: 80px;
+
+}
