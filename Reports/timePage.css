@@ -1,0 +1,147 @@
+#timer_navbar{
+    display: flex;
+    width: 100%;
+    height: 85px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-color: white;
+}
+
+/* CSS for Search div */
+#searh_div{
+    width: 65%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#searh_div>input{
+    width: 95%;
+    height: 70px;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(171, 171, 171);
+}
+
+/* CSS for creative div */
+#create_div{
+    width: 13%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: rgb(55, 49, 49);
+}
+#create_div>p{
+    cursor: pointer;
+}
+#create_div>p>span{
+    color: rgb(255, 0, 251);
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+/* CSS for tag and dollar div */
+#tagDollar_div{
+    width: 8%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(88, 80, 80);
+}
+#tagDollar_div>i{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* CSS for Stopwatch div */
+#stopwatch_div{
+    width: 14%;
+    height: auto;
+    color: rgb(171, 171, 171);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#display{
+    font-size: 25px;
+    font-weight: bold;
+}
+#startStop{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 4px solid rgb(236, 201, 236);
+    background-color: rgb(238, 83, 236);
+    cursor: pointer;
+}
+#startStop>i{
+    width: 100%;
+    height: auto;
+    color: white;
+}
+#reset{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 50%;
+    border: 4px solid rgb(236, 201, 236);
+    background-color: rgb(238, 83, 236);
+    cursor: pointer;
+}
+#reset>i{
+    width: 100%;
+    height: auto;
+    color: white;
+}
+
+/* CSS for home image showing div */
+#home_div{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    width: 50%;
+    margin: auto;
+    height: 500px;
+    background-color: #ffffff;
+    margin-top: 85px;
+    border-radius: 25px;
+    text-align: center;
+}
+#home_div>img{
+    margin-top: 50px;
+    width: 185px;
+    height: 185px;
+    border-radius: 50%;
+}
+#home_div>div{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 26px;
+}
+#home_div>div>span>i{
+    color: grey;
+    font-size: 25px;
+}
+#home_div>h2{
+    font-family: sans-serif;
+    font-size: 25px;
+    color: black;
+    margin-top: 25px;
+}
+#home_div>h2+p{
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: rgb(43, 42, 42);
+}
+#home_div>div+p{
+    margin-top: 18px;
+    font-family: sans-serif;
+    color: gray;
+    font-size: 15px;
+}

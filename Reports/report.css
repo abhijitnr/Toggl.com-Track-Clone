@@ -78,15 +78,26 @@ h2{
   font-size:25px;
   margin-top: 15px;
 }
+<<<<<<< HEAD
 #mainpage{
   text-align: center;
   width: 90%;
   margin-left: 12%;
+=======
+#main{
+  text-align: center;
+  /* width: 80%;
+  margin-left: 20%; */
+>>>>>>> main
 }
 #calender{
   height:30px ;
   border-radius: 5px;
+<<<<<<< HEAD
   margin-right: 70%;
+=======
+  margin-right: 920px;
+>>>>>>> main
   margin-top: 30px;
   width: 250px;
   text-align: center;

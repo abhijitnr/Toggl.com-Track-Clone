@@ -1,0 +1,141 @@
+*{
+  margin: 0px;
+}
+
+h4{
+  color: rgb(53, 52, 52) ;
+  margin-top: 20px;
+  margin-left: 35px;
+  
+}
+
+#navbar{
+  border: .005px solid rgb(221, 220, 220);
+  display: flex;
+  height: 60px;
+  
+  
+}
+#navbar>p{
+  margin-left: 30px;
+  margin-top: 22px;
+  font-size: 14px;
+  color: rgb(101, 100, 100);
+  
+}
+#navbar>p:hover{
+  color:  rgb(27, 26, 26) ;;
+}
+
+
+
+#navbar2{
+  display:flex;
+  height: 45px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+ 
+}
+
+#navbar2>img{
+  width: 18px;
+  height: 18px;
+  margin-left: 20px;
+  margin-top: 15px;
+  
+}
+#dollerimg{
+  width: 20px;
+  height: 17px;
+  margin-left: 20px;
+  margin-top: 12px;
+}
+#navbar2>p{
+  margin-left: 8px;
+  margin-top: 15px;
+  color: gray;
+  font-size: 15px;
+}
+#pp{
+  margin-top: 10px;
+  margin-left: 5px;
+  color: gray;
+}
+#ppp{
+  margin-top: 12px;
+  margin-left: 5px;
+  color: gray;
+}
+#mainimg{
+  margin: 100px 45% 0px ;
+}
+.para{
+ 
+  
+  color: rgb(79, 73, 73);
+  margin-top: 10px;
+}
+h2{
+  font-size:25px;
+  margin-top: 15px;
+}
+#mainpage{
+  text-align: center;
+  
+  margin-left: 140;
+}
+#calender{
+  height:30px ;
+  border-radius: 5px;
+  margin-right: 70%;
+  margin-top: 30px;
+  width: 250px;
+  text-align: center;
+}
+#invitebtn{
+  height: 33px;
+  width: 130px;
+  margin-left: 37%;
+  margin-top: 15px;
+  border-radius: 8px;
+  border: white;
+  background-color: rgb(205, 114, 173);
+  color: white;
+  
+}
+#show{
+  height: 32px;
+  width: 100px;
+  margin-top: 7px;
+  margin-left: 25px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border:.02 rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+#search{
+  height: 32px;
+  width: 300px;
+  margin-top: 7px;
+  margin-left: 200px;
+  border-radius: 5px;
+  padding-left: 20px;
+  border: .01px solid gray;
+}
+#navbar3{
+  display: flex;
+  border-bottom: .1px solid rgb(226, 224, 224);
+  background-color: white;
+  height: 60px;
+  margin-top: 5px;
+}
+#navbar3>p{
+  margin-top: 33px;
+  margin-right: 150px;
+  margin-left: 30px;
+  font-size: 12px;
+  color: gray;
+}
+#main{
+  background-color: rgb(251, 233, 236);;
+}

@@ -1,0 +1,59 @@
+*{
+  margin: 0px;
+}
+
+h3{
+  color: rgb(53, 52, 52) ;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+#navbar{
+  border: .005px solid rgb(221, 220, 220);
+  display: flex;
+  height: 60px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#search{
+  height: 33px;
+  border-radius: 8px;
+  padding-left: 20px;
+  margin-left: 20px;
+  margin-top: 12px;
+  border: .1px solid gray;
+
+}
+
+#tagbtn{
+  height: 30px;
+  width: 120px;
+  margin-left: 60%;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: white;
+  background-color: rgb(242, 115, 158);
+  color: white;
+  
+}
+
+
+
+
+
+#mainimg{
+  margin: 150px 30% 0px ;
+  width: 120px;
+  margin-bottom: 30px;
+}
+.para{
+ 
+  font-size: 16;
+  color: rgb(79, 73, 73);
+  margin-top: 10px;
+}
+#mainpage{
+  text-align: center;
+  /* width: 90%; */
+  margin-left: 10%;
+}
