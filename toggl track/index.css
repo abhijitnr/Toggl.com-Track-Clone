@@ -1,0 +1,472 @@
+*{
+    margin: 0px;
+}
+#whole_first{
+    border:1px solid #1b0625;
+    background-color: #1b0625;
+    /* margin-bottom: -100px; */
+}
+.heading_firstbox{
+    margin-top: -200px;
+    font-family: 'GT Haptik Medium',sans-serif;
+    /* font-weight: 400; */
+    line-height: 1.1;
+    font-size: clamp(5rem * 0.5, 4.9vw, 5rem);
+    color: #FFF3ED;
+    margin-bottom: 25px;
+    text-align: left;
+    max-width: 950px;
+    /* border:1px solid #1b0625; */
+    /* background-color: #1b0625; */
+    /* font-family: 'GT Haptik Medium Rotalic',sans-serif; */
+}
+
+#first-box{
+    margin: 210px auto 0;
+    max-width: 1200px;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    /* border: 1px red solid; */
+    /* background-color: #412A4C; */
+    position: relative;
+    padding: 30px;
+
+};
+.heading_firstbox{
+    font-family: 'GT Haptik Medium',sans-serif;
+    /* font-weight: 400; */
+    line-height: 1.1;
+    font-size: clamp(5rem * 0.5, 4.9vw, 5rem);
+    color: #FFF3ED;
+    margin-bottom: 25px;
+    text-align: left;
+    max-width: 950px;
+    /* font-family: 'GT Haptik Medium Rotalic',sans-serif; */
+}
+em{
+    color: #E57CD8;
+    font-family: 'GT Haptik Medium Rotalic',sans-serif;
+}
+.para{
+    font-family: 'Inter', sans-serif;
+    color: #FCE5D8;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: clamp( 1.5rem * 0.8, 1.65vw, 1.5rem );
+    margin-bottom: 40px;
+    max-width: 80%;
+    margin-bottom: 0px;
+}
+input{
+    background: transparent;
+    color: #FCE5D8;
+    border: 2px solid #ABA0AF;
+    height: 50px;
+    padding-left: 15px;
+    caret-color: #2C1338;
+    font-size: 0.875rem;
+    line-height: 1.35;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    width: 420px;
+    height: 50px;
+    margin-top: 50px;
+}
+input[type="email" i] {
+    padding: 1px 2px;
+}
+input[type="password" i] {
+    padding: 1px 2px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+#sign_up_button{
+    background-color: #E57CD8;
+    color: #FFF;
+    font-family: 'GT Haptik Medium',sans-serif;
+    font-size: 1rem;
+    padding: 17px 40px;
+    align-items: center;
+    border-radius: 26px;
+    border: 0;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 150ms linear,color 150ms linear;
+}
+#sign_up_button:hover{
+    background-color: #332639;
+}
+button[type='submit'] {
+    -webkit-appearance: button;
+}
+#sign_up_bottom{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+#also_signup_with{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* border: 1px solid red; */
+    margin-top: 15px;
+    font-family: 'GT Haptik Medium',sans-serif;
+}
+#signup_text{
+    margin-right: 5px;
+    line-height: 1.3;
+    color: #FCE5D8;
+    
+}
+#sign_up_page{
+    display: flex;
+    /* border: 1px red solid; */
+    /* margin-bottom: -30px; */
+    /* padding-bottom: 10px; */
+}
+#signup_top{
+    /* border: 1px red solid; */
+    width: 50%;
+}
+#animation{
+    /* border: 1px solid red; */
+    margin-bottom: 80px;
+    
+}
+.testdelete {
+    font-family: Material Icons;
+}
+.fa-google {
+    background:transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 25px;
+  }
+  .fa-google:hover{
+    color:#1b0625;
+    background-color: white;
+    cursor: pointer;
+  }
+  #apple{
+    color: white;
+    border-radius: 50%;
+    background:#1b0625;
+    border: 1px solid white;
+    font-size: 25px;
+  }
+  #apple:hover{
+    color:#1b0625;
+    background-color: white;
+    cursor: pointer;
+  }
+  .fa-apple{
+    padding: 15px;
+    font-size: 25px;
+  }
+  .fa-apple{
+    background:transparent;
+  }
+  #animation{
+    margin-left: 150px;
+    margin-top: 100px;
+  }
+
+/* button animation */
+  .button-64 {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .button-64:active,
+  .button-64:hover {
+    outline: 0;
+  }
+  
+  .button-64 span {
+    background-color: rgb(5, 6, 45);
+    padding: 26px 34px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+  }
+  
+  .button-64:hover span {
+    background: none;
+  }
+  
+  @media (min-width: 768px) {
+    .button-64 {
+      font-size: 24px;
+      min-width: 196px;
+    }
+  }
+
+  /* button animation */
+
+  #quote{
+    font-size: 22px;
+    margin-top: 90px;
+    text-align: center;
+    margin-bottom: -25px;
+    color: #FCE5D8;
+    opacity: 1;
+    transform: translateY(-30px);
+    transition-delay: 3.3s;
+    transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    font-family: 'GT Haptik Medium',sans-serif;
+    font-weight: 400;
+    font-size: clamp(1.5rem * 0.8, 2vw, 1.5rem);
+    line-height: 1.35;
+    /* position: absolute; */
+  }
+  small{
+    color: #FCE5D8;
+    display: block;
+    text-align: right;
+    font-family: 'Inter',sans-serif;
+    font-size: 100%;
+    margin-right: 40px;
+  }
+  .underline{
+    text-decoration: underline;
+  }
+  #terms{
+    color: #FCE5D8;
+    font-size: 12px;
+    line-height: 1.4;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  /* first down box */
+
+  #first_out_box{
+    margin: auto;
+    /* border: 1px red solid; */
+    background-color:  #FCE5D8;
+    display: flex;
+    margin-top: 50px;
+    width: 80%;
+    justify-content: space-evenly;
+    padding: 30px 40px;
+    gap: 35px;
+    /* max-width: 1050px; */
+    /* margin: 80px auto 20px; */
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-size: 13.56px;
+    margin-bottom: 40px;
+  }
+  .first_out_box_flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #412A4C;
+    line-height: 1.2;
+
+  }
+  .divider{
+    border-left: 1px solid #412A4C;
+    height: 50px;
+  }
+  .first_box_end_line{
+    
+    text-align: center;
+  }
+  .first_box_end_font{
+    color: #FCE5D8;
+    font-family: 'GT Haptik Medium',sans-serif;
+    text-align: center;
+  }
+  #demo_jump{
+    text-decoration: none;
+    color: #EA96E0;
+    font-family: 'GT Haptik Medium',sans-serif;
+    font-size: 1rem;
+
+  }
+
+  /* snd box */
+  #scnd_whole{
+    padding: 80px 30px;
+    font-family: 'Inter', sans-serif;
+    background: #FFF3ED
+  }
+  #scnd_head{
+    color: #412A4C;
+    font-family: 'GT Haptik Medium',sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: clamp(3rem * 0.55, 3.5vw, 2rem);
+    margin: 30px auto;
+    max-width: 850px;
+    text-align: center;
+    border: 1px solid red;
+  }
+  #scnd_boxes{
+    display: grid;
+    grid-gap: 25px;
+    max-width: 1050px;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 60px auto 30px;
+    border: 1px solid red;
+  }
+
+
+  .scnd_boxes_first_row{
+    padding: 40px;
+    grid-column: span 3;
+    border: 1px solid red;
+  }
+  #scnd_boxes_first_rowone{
+    background: #FAE5F7;
+    }
+#scnd_boxes_first_rowtwo{
+    background: #FCE5D8
+}
+    .scnd_boxes_first_row_head{
+        line-height: 1.5;
+    font-size: clamp( 1rem * 0.95, 1vw, 2rem );
+    color: #E57CD8;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+    }
+    .scnd_boxes_first_para{
+    color: #412A4C;
+    font-family: 'GT Haptik Medium',sans-serif;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: 25px;
+    padding-right: 35px;
+    font-size: clamp( 2rem * 0.7, 2.3vw, 1rem * 0.9 );
+    }
+    .scnd_boxes_first_row_btn{
+        z-index: 10;
+        position: relative;
+        font-family: 'GT Haptik Medium',sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 14px 35px;
+        align-items: center;
+        border-radius: 26px;
+        transition: background-color 150ms linear,color 150ms linear;
+        background-color: #E57CD8;
+        color: #FFF;
+        outline: none;
+        border: none;
+    }
+    button[type='submit'] {
+        -webkit-appearance: button;
+    }
+    .scnd_boxes_first_row_btn:hover{
+        background-color: #332639;
+        cursor: pointer;
+    }
+    .scnd_boxes_first_img{
+        border: 1px red solid;
+        opacity: 1;
+        margin-left: 60px;
+        margin-top: -25px;
+        margin-bottom: 20px;
+        
+    }
+    strong{
+        color: #412A4C;
+        line-height: 1.5;
+        font-size: clamp( 1rem * 0.95, 1vw, 1rem );
+        font-weight: 700;
+        margin-top: 10px;
+        /* margin-bottom: 10px; */
+      }
+      .scnd_boxes_first_para_lastline{
+        text-decoration: underline;
+        color: #564260;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+      .scnd_boxes_scnd_row{
+        background: #FCE5D8;
+        grid-column: span 2;
+        padding: 30px 35px 25px
+      }
+    
+      .scnd_boxes_scnd_para{
+        margin-bottom: 40px;
+        font-family: 'GT Haptik Medium',sans-serif;
+        font-weight: 600;
+        font-size: clamp(1.25rem, 1.5vw, 1.25rem * 1);
+        line-height: 1.5;
+        line-height: 1.35;
+        color: #412A4C;
+      }
+      .learn_icon{
+        transition: background-color 150ms linear,color 150ms linear;
+        /* border-color: #564260; */
+        height: auto;
+        color: #564260;
+        margin-top: auto;
+        /* font-family: 'GT Haptik Medium',sans-serif; */
+        font-size: 1rem;
+        font-weight: 600;
+      }
+      .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        
+      }
+      .arrow {
+        border: solid #564260;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 2px;
+      }
+     .learn_icon:hover{
+        color: #AF40FF;
+        cursor: pointer;
+     }
+     .arrow:hover{
+        border: solid #AF40FF;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 2px;
+    }
+   
+     
