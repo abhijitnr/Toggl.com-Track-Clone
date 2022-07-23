@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+#sidebar{
+    width: 12%;
+    position: fixed;
+    height: 100%;
+    background-color: #2c1338;
+}
+
+#setting_page{
+    width: 88%;
+    height: auto;
+    margin-left: 12%;
+    margin-bottom: 50px;
+}
+
+/* CSS for Logo and bell icon div */
+#logo{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+#logo>img{
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+}
+#logo>p{
+    color: white;
+    cursor: pointer;
+}
+
+/* CSS for track div */
+#track{
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+}
+#track>p:first-child{
+    color: #827188;
+    font-size: 11px;
+    font-family: sans-serif;
+}
+#track>p:last-child>span{
+    color: white;
+    padding-right: 8px;
+}
+#track>p:last-child{
+    margin-top: 8px;
+    color: rgb(214, 207, 207);
+    background-color: #482756;
+    border-radius: 5px;
+    padding: 6px 10px 6px 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#track>p:last-child:hover{
+    color: white;
+    cursor: pointer;
+}
+
+/* CSS for analyse div */
+#analyze{
+    width: 80%;
+    margin: auto;
+    margin-top: 16px;
+}
+#analyze>p:first-child{
+    color: #827188;
+    font-size: 11px;
+    font-family: sans-serif;
+}
+#analyze>p>span{
+    color: white;
+    padding-right: 8px;
+}
+#analyze>p:nth-child(2){
+    margin-top: 8px;
+    color: rgb(214, 207, 207);
+    background-color: #482756;
+    border-radius: 5px;
+    padding: 6px 10px 6px 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#analyze>p:last-child{
+    margin-top: 8px;
+    color: rgb(214, 207, 207);
+    background-color: #482756;
+    border-radius: 5px;
+    padding: 6px 10px 6px 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#analyze>p:nth-child(2):hover{
+    color: white;
+    cursor: pointer;
+}
+#analyze>p:last-child:hover{
+    color: white;
+    cursor: pointer;
+}
+
+/* CSS for manage div */
+#manage{
+    width: 80%;
+    margin: auto;
+    margin-top: 16px;
+}
+#manage>p>span{
+    color: white;
+    padding-right: 8px;
+}
+#manage>p:first-child{
+    color: #827188;
+    font-size: 11px;
+    font-family: sans-serif;
+}
+#manage>p:nth-child(2){
+    margin-top: 8px;
+    color: rgb(214, 207, 207);
+    background-color: #482756;
+    border-radius: 5px;
+    padding: 6px 10px 6px 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#manage>p:nth-child(3){
+    margin-top: 8px;
+    color: rgb(214, 207, 207);
+    background-color: #482756;
+    border-radius: 5px;
+    padding: 6px 10px 6px 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#manage>p:nth-child(4){
+    margin-top: 8px;
+    color: rgb(214, 207, 207);
+    background-color: #482756;
+    border-radius: 5px;
+    padding: 6px 10px 6px 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#manage>p:nth-child(5){
+    margin-top: 8px;
+    color: rgb(214, 207, 207);
+    background-color: #482756;
+    border-radius: 5px;
+    padding: 6px 10px 6px 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#manage>p:nth-child(6){
+    margin-top: 8px;
+    color: rgb(214, 207, 207);
+    background-color: #482756;
+    border-radius: 5px;
+    padding: 6px 10px 6px 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#manage>p:last-child{
+    margin-top: 8px;
+    color: rgb(214, 207, 207);
+    background-color: #482756;
+    border-radius: 5px;
+    padding: 6px 10px 6px 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#manage>p:nth-child(2):hover{
+    color: white;
+    cursor: pointer;
+}
+#manage>p:nth-child(3):hover{
+    color: white;
+    cursor: pointer;
+}
+#manage>p:nth-child(4):hover{
+    color: white;
+    cursor: pointer;
+}
+#manage>p:nth-child(5):hover{
+    color: white;
+    cursor: pointer;
+}
+#manage>p:nth-child(6):hover{
+    color: white;
+    cursor: pointer;
+}
+#manage>p:last-child:hover{
+    color: white;
+    cursor: pointer;
+}
+
+/* CSS for admin div */
+#admin{
+    width: 80%;
+    margin: auto;
+    margin-top: 16px;
+}
+#admin>p:first-child{
+    color: #827188;
+    font-size: 11px;
+    font-family: sans-serif;
+}
+#admin>p>span{
+    color: white;
+    padding-right: 8px;
+}
+#admin>p:nth-child(2){
+    margin-top: 8px;
+    color: rgb(214, 207, 207);
+    background-color: #482756;
+    border-radius: 5px;
+    padding: 6px 10px 6px 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#admin>p:last-child{
+    margin-top: 8px;
+    color: rgb(214, 207, 207);
+    background-color: #482756;
+    border-radius: 5px;
+    padding: 6px 10px 6px 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#admin>p:nth-child(2):hover{
+    color: white;
+    cursor: pointer;
+}
+#admin>p:last-child:hover{
+    color: white;
+    cursor: pointer;
+}
+
+/* CSS for trial div */
+#trial{
+    background-color: #632d7b;
+}
+#trial>p:first-child{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    padding: 6px 10px 6px 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#trial>p:last-child{
+    width: 80%;
+    margin: auto;
+    margin-top: -9px;
+    color: rgb(214, 207, 207);
+    padding: 6px 10px 6px 10px;
+    font-family: sans-serif;
+    font-size: 11px;
+    text-decoration: underline;
+}
+#trial>p:last-child{
+    color: white;
+    cursor: pointer;
+}
+
+
+/* CSS for admin workspace div */
+#workspace{
+    width: 80%;
+    margin: auto;
+    margin-top: 12px;
+}
+#workspace>p:first-child{
+    color: #827188;
+    font-size: 11px;
+    font-family: sans-serif;
+}
+#workspace>p>span{
+    color: white;
+    padding-right: 5px;
+}
+#workspace>p:last-child{
+    margin-top: 8px;
+    color: rgb(214, 207, 207);
+    background-color: #482756;
+    border-radius: 5px;
+    padding: 6px 10px 6px 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+    border: 1px solid green;
+}
+#workspace>p:last-child>span:last-child{
+    font-size: 11px;
+}
+#workspace>p:last-child:hover{
+    color: white;
+    cursor: pointer;
+}
+
+/* CSS for admin login email email div */
+#login_email{
+    width: 80%;
+    margin: auto;
+    margin-top: 18px;
+}
+#login_email>p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#login_email>p>span{
+    cursor: pointer;
+}
