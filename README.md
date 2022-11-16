@@ -4,8 +4,8 @@
 
 ## 3. Team Members name with student code :
 
-  - a. Abhijit Biswas (Team Lead) ----> fw19_1025
-  - b. Mohamed Haris (Member-1) ----> fw18_0549
+  - a. [Abhijit Biswas (Team Lead) ----> fw19_1025](https://github.com/abhijitnr)
+  - b. [Mohamed Haris (Member-1) ----> fw18_0549](https://github.com/mdharis107)
   - c. Lalit Kolhe (Member-2) ----> fw19_0504
   - d. Shwet Rai (Member-3) ----> fp03_266
   - e. Amardeep Kumar (Member-4) ----> fw18_1019
