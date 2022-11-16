@@ -6,9 +6,9 @@
 
   - a. [Abhijit Biswas (Team Lead) ----> fw19_1025](https://github.com/abhijitnr)
   - b. [Mohamed Haris (Member-1) ----> fw18_0549](https://github.com/mdharis107)
-  - c. Lalit Kolhe (Member-2) ----> fw19_0504
-  - d. Shwet Rai (Member-3) ----> fp03_266
-  - e. Amardeep Kumar (Member-4) ----> fw18_1019
+  - c. [Lalit Kolhe (Member-2) ----> fw19_0504](https://github.com/Lalit1143)
+  - d. [Shwet Rai (Member-3) ----> fp03_266](https://github.com/shwetra)
+  - e. [Amardeep Kumar (Member-4) ----> fw18_1019](https://github.com/adpkr)
 
 ## 4. Team Manager : Anubhav Varshney
 
